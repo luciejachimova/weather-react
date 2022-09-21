@@ -3,7 +3,12 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: rgb(1, 1, 1);
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
 }
 
 .Weather h1 {
@@ -35,6 +40,9 @@
   margin-left: 10px;
 }
 
+.Weather canvas {
+  margin: 10px auto;
+}
 .Weather canvas {
   margin: 10px auto;
 }

@@ -21,9 +21,7 @@ export default function WeatherInfo(props) {
             </div>
 
             <div>
-              <WeatherTemperature
-                celsius={Math.round(props.data.temperature)}
-              />
+              <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>
         </div>

@@ -1,7 +1,10 @@
+
 .WeatherForecast {
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
 }
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
 }

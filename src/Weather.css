@@ -3,8 +3,13 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
- background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+  color: #427e7a;
+  background: linear-gradient(
+    180deg,
+    rgba(242, 230, 230, 1) 0%,
+    rgba(242, 236, 235, 1) 69%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .Weather h1 {
@@ -28,7 +33,7 @@
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: #427e7a;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -44,10 +49,21 @@
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: #427e7a;
   font-size: 16px;
   font-weight: 400;
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+.Weather .btn {
+  border: 1px solid #427e7a;
+  border-radius: 4px;
+  color: #427e7a;
+  font-size: 18px;
+}
+.Weather .btn:hover {
+  color: white;
+  background: #427e7a;
 }

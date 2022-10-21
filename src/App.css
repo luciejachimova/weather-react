@@ -1,8 +1,23 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
 }
+
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}
+
+.App h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+  color: #427e7a;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.App a {
+  color: #ddca8f;
 }
